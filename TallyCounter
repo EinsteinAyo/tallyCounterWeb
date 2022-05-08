@@ -1,0 +1,22 @@
+<DOCTYPE html>
+<html>
+<body>
+<style>
+h3{
+    color:red;
+    text-align:center;
+}
+</style>
+<h3>Tally Counter Website</h3>
+<button id="text" onclick="increment()">Click Me : 0</button>
+<script>
+var count=0;
+function increment(){
+    count ++; document.getElementById("text").innerHTML="Click Me :" + count;
+}
+
+document.getElementById("text").style.backgroundColor="lightblue";
+</script>
+</body>
+
+</html>
